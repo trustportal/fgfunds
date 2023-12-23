@@ -1,4 +1,21 @@
 
+  .blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 @import url("//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
 * {
@@ -12,13 +29,13 @@
 }
 body {
     direction: lfl;
-    background:#ffffff;
+    background: #086E60;
 }
 a {
     text-decoration: none;
 }
 .post {
-    background: #fff;
+    background: #FAF5EB;
     margin: 0 auto;
     padding: 10px;
     max-width: 500px;
@@ -33,7 +50,7 @@ a {
 }
 .amount,
 #getname {
-    color: #098105;
+    color: #ffffff;
     text-decoration: none;
 }
 .done {
@@ -68,7 +85,7 @@ button {
     transition: background 0.3s ease;
 }
 button:hover {
-    background: #098105;
+    background: #000000;
 }
 .phone {
     max-width: 400px;
@@ -129,11 +146,11 @@ button:hover {
     width: calc(100% - 100px);
     height: 35px;
     padding: 2px;
-    border: 2px solid #098105;
+    border: 2px solid #FAF5EB;
 }
 #fill,
 #fill2 {
-    background: #098105;
+    background: #FAF5EB;
     width: 0%;
     height: 100%;
 }
@@ -142,7 +159,7 @@ button:hover {
     float: right;
     height: 35px;
     font-size: 16px;
-    border: 2px solid #098105;
+    border: 2px solid #FAF5EB;
 }
 #percentage,
 #percentage2 {
@@ -216,7 +233,7 @@ button:hover {
 }
 .single-container {
     margin-left: 37px;
-    background: #f1f2f6;
+    background: #FAF5EB;
     padding: 10px;
     border-radius: 15px;
     font-size: 12px;
@@ -255,5 +272,8 @@ button:hover {
 }
 .A{
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(250, 245, 235);
 }
+
+  
+  
