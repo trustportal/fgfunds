@@ -1,4 +1,6 @@
 
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 @import url("//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
 * {
@@ -12,13 +14,13 @@
 }
 body {
     direction: lfl;
-    background:#ffffff;
+    background: #2DAD81;
 }
 a {
     text-decoration: none;
 }
 .post {
-    background: #fff;
+    background: #FAF5EB;
     margin: 0 auto;
     padding: 10px;
     max-width: 500px;
@@ -33,7 +35,7 @@ a {
 }
 .amount,
 #getname {
-    color: #098105;
+    color: yellow;
     text-decoration: none;
 }
 .done {
@@ -79,7 +81,7 @@ button:hover {
     height: 50px;
     padding: 10px;
     outline: none;
-    border: 2px solid #cecece;
+    border: 2px solid #FAF5EB;
     font-size: 14px;
 }
 #confirm {
@@ -129,11 +131,11 @@ button:hover {
     width: calc(100% - 100px);
     height: 35px;
     padding: 2px;
-    border: 2px solid #098105;
+    border: 2px solid #FAF5EB;
 }
 #fill,
 #fill2 {
-    background: #098105;
+    background: #FAF5EB;
     width: 0%;
     height: 100%;
 }
@@ -142,7 +144,7 @@ button:hover {
     float: right;
     height: 35px;
     font-size: 16px;
-    border: 2px solid #098105;
+    border: 2px solid #FAF5EB;
 }
 #percentage,
 #percentage2 {
@@ -153,7 +155,7 @@ button:hover {
     display: none;
 }
 .counter {
-    color: #7f7f7f;
+    color: #ffffff;
     font-size: 12px;
     text-align: right;
     padding: 10px 0 10px 2px;
@@ -169,7 +171,7 @@ button:hover {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     box-sizing: content-box;
 }
 .like,
@@ -185,13 +187,13 @@ button:hover {
 .bar {
     display: table;
     width: 100%;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
 }
 .bar .react {
     display: table-cell;
     width: calc(100% / 3);
     font-size: 12px;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 10px 0;
     cursor: pointer;
@@ -216,7 +218,7 @@ button:hover {
 }
 .single-container {
     margin-left: 37px;
-    background: #f1f2f6;
+    background: #FAF5EB;
     padding: 10px;
     border-radius: 15px;
     font-size: 12px;
@@ -234,7 +236,7 @@ button:hover {
     font-size: 12px;
     font-weight: bold;
     margin: 10px 0 0 47px;
-    color: #000000;
+    color: #ffffff;
 }
 .action {
     cursor: pointer;
@@ -257,3 +259,4 @@ button:hover {
     text-align: center;
     background-color: rgb(0, 0, 0);
 }
+
